@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         // 전문전문 하고 움
         var textV : TextView = findViewById<TextView>(R.id.tv_cnt)
         textV.text = "전문전문 하고 움"
+        println("testing")
 
     }
 }
