@@ -1,6 +1,7 @@
 package com.example.gittasting
 
 import android.os.Bundle
+import android.widget.*
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -21,5 +22,10 @@ class MainActivity : AppCompatActivity() {
         println("안녕하세요. 잘 부탁드립니다!")
         println("Git 한테 찢기고 부서지고 깨져봅시다.")
         println("위하여 🍺")
+
+        // 전문전문 하고 움
+        var textV : TextView = findViewById<TextView>(R.id.tv_cnt)
+        textV.text = "전문전문 하고 움"
+
     }
 }
