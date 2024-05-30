@@ -16,5 +16,10 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        // 김태영이 작성한 코드
+        println("안녕하세요. 잘 부탁드립니다!")
+        println("Git 한테 찢기고 부서지고 깨져봅시다.")
+        println("위하여 🍺")
     }
 }
